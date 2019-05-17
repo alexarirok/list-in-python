@@ -1,5 +1,5 @@
 # Lists 
-Working on list in python
+Working on list data types in python
 ## Project Description
 This project is categorised into three main files which include:
 ##### list.py
