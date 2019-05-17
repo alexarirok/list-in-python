@@ -9,7 +9,7 @@ This project is categorised into three main files which include:
 ##### list3.py
     Describes how we use .insert() to insert an item into specific index in a list.
 ##### project.py
-    Is a project to describe how list data type can be applied and usedin a project.
+    Is a project to describe how list data type can be applied and used in a project.
 ### Technologies used
  > Python programming language
  ### Setup
