@@ -10,14 +10,24 @@ while len(smallerlist) < smallerlistnum:
     randomnum = randint(0, 10)
     smallerlist.append(randomnum)
 #print(smallerlist)
-newlist = []
+#newlist = []
 biggerlist.append(smallerlist)
+"""
 for i in biggerlist[0]:
     i+= numtoadd
     newlist.append(i)
 #print(newlist)
-biggerlist.append(newlist)
-print(biggerlist)
+biggerlist.append(newlist)"""
+while True:
+    new = [k + numtoadd for k in biggerlist[-1]]
+    biggerlist.append(new)
+    print(biggerlist)
+    if len(biggerlist) == 6:
+        #pass
+        #continue
+        break
+        #print(biggerlist)
+#print(biggerlist)
 
 
 
