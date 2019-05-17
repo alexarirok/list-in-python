@@ -1,4 +1,4 @@
-#List 
+# Lists 
 Working on list in python
 ## Project Description
 This project is categorised into three main files which include:
