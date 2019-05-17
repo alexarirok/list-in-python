@@ -15,4 +15,4 @@ This project is categorised into three main files which include:
  ### Setup
    1. Clone the project from github to your local pc.
    2. cd to the folder containing the cloned project
- > ``` python3 <file.py>```
+ > ```$ python3 <file.py>```
