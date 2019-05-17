@@ -12,7 +12,7 @@ This project is categorised into three main files which include:
     Is a project to describe how list data type can be applied and usedin a project.
 ### Technologies used
  > Python programming language
- #### Setup
+ ### Setup
  ##### Clone the project from github to your local pc.
  ##### cd to the folder containing the cloned project
  > ``` python3 <file.py>```
