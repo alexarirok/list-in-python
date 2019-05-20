@@ -1,8 +1,8 @@
 from random import randint
 
-biglistnum  = int(input("length of bigger list"))
-smallerlistnum = int(input("length of smaller list"))
-numtoadd = int(input("value to be added to initial bigger list"))
+biglistnum  = int(input("length of bigger list? "))
+smallerlistnum = int(input("length of smaller list? "))
+numtoadd = int(input("value to be added to initial bigger list? "))
 #print(biglistnum, smallerlistnum, numtoadd)
 biggerlist = []
 smallerlist = []
@@ -19,21 +19,20 @@ for i in biggerlist[0]:
 #print(newlist)
 biggerlist.append(newlist)"""
 while True:
+#while int(biggerlist) < 10:
     new = [k + numtoadd for k in biggerlist[-1]]
-    biggerlist.append(new)
+    for n,i in enumerate(new):
+        if i>=10:
+            new[n] = i-10
+        else:
+            new[n] = new[n]
+    biggerlist.append(new )
+    #if new < 10: 
     print(biggerlist)
-    if len(biggerlist) == 6:
-        #pass
-        #continue
+    if len(biggerlist) == biglistnum:
         break
-        #print(biggerlist)
-#print(biggerlist)
-
-
-
-
-
-
+    #print(biggerlist)
+    #print(biggerlist)
 
 
 
